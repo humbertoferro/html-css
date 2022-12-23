@@ -1,0 +1,15 @@
+body{
+    background-color: gray;
+}
+main{
+    background-color: white;
+    padding: 20px;/*aumentei a área dentro do quadrado*/
+    border-radius: 10px;
+     
+    min-width: 320px;
+    max-width: 800px; /*esses vão servir apenas para o texto, aqui eu limito o tamanho das quebras, se eu botasse width: 100% eu não estaria limitando*/
+    margin: auto;
+}
+img{
+    width: 100%;
+}
