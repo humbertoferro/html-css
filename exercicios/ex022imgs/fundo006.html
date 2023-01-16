@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fundo fixo de tela</title>
+    <style>
+        body{
+            background-color: black;
+            background-image: url(imagens/wallpaper002.jpg);
+            background-position: center center; /*posicionei a imagem no fundo ao meio e no meio*/
+            background-repeat: no-repeat; /*as bordas não se repetem*/
+            background-size: cover;/*faz com que a imagem apareça toda ainda que partido o fundo da tela*/
+            background-attachment: fixed; /*Consigo fazer com que apenas a imagem da frente que role e congele a imagem de trás*/
+
+            /*Shorthands usando background: color > image > position > repeat > [size] > attachment;
+            
+            background: black url(imagens/wallpaper002.jpg) center center no-repeat  fixed */
+        }
+        main{
+            background-color: white;
+            max-width: 700px;
+            padding: 10px;
+            margin: auto; /*deixou a caixa alinhada ao centro*/
+            border: 1px solid darkblue;
+            border-radius: 15px;
+        }
+    </style>
+</head>
+<body>
+    <main>
+        <h1>Teste de Imagem de Fundo</h1>
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sed fuga, libero eos incidunt possimus corporis! Cum minima est at nesciunt cumque voluptatum dolorem quaerat molestiae quos quasi. Nisi, nam dolorem! Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla voluptates earum ipsa sed aperiam aliquid odit rem, sequi nesciunt beatae autem, velit laboriosam enim ut ullam omnis porro, quae eius!
+         Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus consequuntur quisquam optio pariatur sequi ducimus, sed dolore tempora in fugiat. Blanditiis, ad! Ipsam vel aperiam nemo veniam animi dignissimos rerum! Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit aperiam similique inventore libero nisi quidem nesciunt totam exercitationem odio rerum. Blanditiis nemo maxime impedit eaque eligendi. Soluta officia sit sed. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Numquam adipisci ipsum quos neque exercitationem. Ullam sed repellendus natus fugit dolor vitae tempora laudantium? Aperiam, quos magnam praesentium voluptatem necessitatibus aspernatur? Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis quia dolor voluptates sapiente veniam optio inventore beatae incidunt molestias cumque consequatur modi, quidem quis deserunt quod dolore sunt nobis voluptatibus! Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur corrupti odio fugit vero modi, error, numquam at quisquam voluptate dolores qui corporis veritatis rerum accusantium a doloribus obcaecati voluptates. Earum? Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia tempore tenetur quas ipsa vero! Aut, iste laboriosam ex nam nostrum consequuntur necessitatibus nobis consectetur, libero deleniti quam atque. Quis, tenetur.</p>
+    </main>
+</body>
+</html>
